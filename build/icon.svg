@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <clipPath id="clip"><path d="M274.56 64H749.44C901.0432 64 960 122.95680000000002 960 274.56V749.44C960 901.0432 901.0432 960 749.44 960H274.56C122.95680000000002 960 64 901.0432 64 749.44V274.56C64 122.95680000000002 122.95680000000002 64 274.56 64Z"/></clipPath>
+    <filter id="mesh" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="120"/></filter>
+    <filter id="lift" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#06081A" flood-opacity="0.35"/>
+    </filter>
+    <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.4"/>
+      <stop offset="0.35" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1024" height="1024" fill="#1C0A26"/>
+    <g filter="url(#mesh)">
+      <ellipse cx="170" cy="900" rx="430" ry="300" fill="#FF4F6E"/>
+      <ellipse cx="560" cy="640" rx="260" ry="360" fill="#FF9F43" transform="rotate(-30 560 640)"/>
+      <circle cx="900" cy="170" r="380" fill="#9B5CFF"/>
+      <circle cx="980" cy="840" r="250" fill="#FF3D9A"/>
+      <circle cx="280" cy="110" r="210" fill="#6B3BD8"/>
+    </g>
+  </g>
+  <path d="M274.56 64H749.44C901.0432 64 960 122.95680000000002 960 274.56V749.44C960 901.0432 901.0432 960 749.44 960H274.56C122.95680000000002 960 64 901.0432 64 749.44V274.56C64 122.95680000000002 122.95680000000002 64 274.56 64Z" fill="none" stroke="url(#edge)" stroke-width="5"/>
+  <path d="M512 216L788 780L684 780L615.5 640L408.5 640L340 780L236 780ZM512 428.5L571.4 550L452.6 550Z" fill="#FFFFFF" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="22" stroke-linejoin="round" filter="url(#lift)"/>
+</svg>
