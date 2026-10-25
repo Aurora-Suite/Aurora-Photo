@@ -29,3 +29,7 @@ npm run dist:win   # release/Aurora Photo Setup.exe y versión portable
 ```
 
 Pruebas automatizadas: `AURORA_TEST=1 AURORA_PROFILE=<carpeta>` expone el estado en `window.__aurora` (solo en ese modo).
+
+## Licencia
+
+[MIT](LICENSE) © 2026 Aurora Suite.
